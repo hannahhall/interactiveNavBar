@@ -1,0 +1,30 @@
+* {
+	font-family: sans-serif;
+}
+
+.header {
+	font-size: 1.5em;
+}
+
+.navBar {
+	text-align: right;
+	font-weight: bold;
+}
+
+.navBar ul{
+	list-style-type: none;
+	display: inline-block;
+}
+
+.color li:hover {
+	color: green;
+}
+
+.background li:hover {
+	background-color: purple;
+}
+
+.grow li:active {
+	margin-right: 5px;
+	margin-left: 5px;
+}
